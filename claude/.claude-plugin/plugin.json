@@ -1,0 +1,12 @@
+{
+  "name": "serviette",
+  "displayName": "Serviette",
+  "version": "1.0.0",
+  "description": "Order food to collect from independent restaurants, from a conversation. Find restaurants near you, choose from the menu, and pay on Serviette's secure page.",
+  "author": {
+    "name": "Serviette",
+    "url": "https://withserviette.com"
+  },
+  "license": "MIT",
+  "privacyPolicyUrl": "https://withserviette.com/privacy"
+}

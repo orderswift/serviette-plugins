@@ -1,0 +1,15 @@
+{
+  "name": "serviette",
+  "owner": {
+    "name": "Serviette",
+    "url": "https://withserviette.com"
+  },
+  "plugins": [
+    {
+      "name": "serviette",
+      "source": "./claude",
+      "description": "Order food to collect from independent restaurants, from a conversation."
+    }
+  ],
+  "description": "Serviette plugins: order food to collect from independent restaurants, from a conversation."
+}

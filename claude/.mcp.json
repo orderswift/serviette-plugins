@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "serviette": {
+      "type": "http",
+      "url": "https://agent.withserviette.com/agent/mcp"
+    }
+  }
+}
