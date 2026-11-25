@@ -17,7 +17,7 @@
         "shortDescription": "Order takeaway to collect",
         "longDescription": "Serviette lets you order food to collect from independent restaurants. Give a UK postcode, or the name of a restaurant or chain, and see who takes orders near you with the first time you can collect. Choose a restaurant, see its menu and times, and the assistant puts your order together and gives you a link to pay. You enter your own details and card on Serviette's secure payment page: the assistant never sees them. Optionally save an order to repeat it next time, and sign in with an emailed code to find it again. Serviette is for collection only (no delivery), covers UK restaurants, and does not rank or recommend restaurants. Some listed restaurants take orders only on their own website: the assistant will say so and give the link.",
         "developerName": "Serviette",
-        "category": "Food & Drink",
+        "category": "Other",
         "capabilities": [
           "Find restaurants",
           "Read menus",
