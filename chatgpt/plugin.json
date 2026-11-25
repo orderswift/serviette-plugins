@@ -43,31 +43,31 @@
             {
               "description": "Find restaurants near a postcode",
               "prompt": "I want a takeaway to collect near LS1 4AP. What is there?",
-              "tools_triggered": ["find_restaurants"],
+              "tools_triggered": "find_restaurants",
               "expected_behavior": "Lists restaurants alphabetically, each at its closest site with the first time it can be collected and its distance in miles. Does not recommend one, and waits for the customer to choose before reading any menu."
             },
             {
               "description": "Ask for one named restaurant",
               "prompt": "Is Pizza Express near LS1 4AP on Serviette?",
-              "tools_triggered": ["find_restaurants"],
+              "tools_triggered": "find_restaurants",
               "expected_behavior": "Searches by brand, so only that restaurant's sites are returned and no other restaurant of the same kind. If none are on Serviette, says so and offers to look by cuisine."
             },
             {
               "description": "Read a menu and the collection times after choosing",
               "prompt": "Show me the menu for the first one and when I could collect.",
-              "tools_triggered": ["get_menu", "get_availability"],
+              "tools_triggered": "get_menu, get_availability",
               "expected_behavior": "Only after a site has been chosen, shows the menu with prices and dietary information and the available collection times."
             },
             {
               "description": "Build an order and get a payment link",
               "prompt": "I'll have one margherita pizza, ready as soon as possible. Put the order together.",
-              "tools_triggered": ["create_order_quote"],
+              "tools_triggered": "create_order_quote",
               "expected_behavior": "Confirms the items and time, creates a priced order, and gives the customer a payment link on Serviette's own page. Does not ask for card or other payment details. (Reviewers do not need to pay: the test ends at the payment link.)"
             },
             {
               "description": "Check whether an order has been paid",
               "prompt": "I have opened the link. Tell me when it has been paid.",
-              "tools_triggered": ["get_order_status"],
+              "tools_triggered": "get_order_status",
               "expected_behavior": "Waits and checks the order's status, says that it is waiting, and reports the order as unpaid, paid or expired. Does not claim payment before the status says so."
             }
           ],
