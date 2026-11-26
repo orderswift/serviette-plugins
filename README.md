@@ -5,6 +5,7 @@ Plugins that let an AI assistant order food to collect from independent restaura
 | Folder     | For                              | What it is                                                                                  |
 | ---------- | -------------------------------- | ------------------------------------------------------------------------------------------- |
 | `claude/`  | Claude (claude.ai, Cowork, Code) | A Claude plugin: manifest, `.mcp.json`, the `order-takeaway` skill                          |
+| `muse/`    | Meta Muse                        | Answers and documentation for Muse's web submission form (it has no package format)         |
 | `chatgpt/` | ChatGPT (and Codex)              | An OpenAI plugin package: `plugin.json`, `mcp.json`, the skill, the logo, review test cases |
 
 The repository root is also a Claude marketplace (`.claude-plugin/marketplace.json`) that lists the Claude plugin.
